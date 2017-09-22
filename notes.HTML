@@ -47,6 +47,46 @@
 		< tr > allows you to put rows in your tables. <br/>
 		< t d > is what allows you to insert content inside the cells in a row<br/>
 		< t h > is a tag used to put headings in tables.<br/>
+		You can use the colspan attribute to make the cell in a table longer<br/>
+		You can use the rowspan attribute to make a cell in a table deeper<br/>
+		You can split the table in three parts: thead(headings),tbody(table data), and tfoot(last row)
+		<table>
+		<tr>
+			<th scope="col">Company Name</th>
+			<th scope="col">Number of items to Ship</th>
+			<th scope="col">Next Action</th>
+		</tr>
+		<tr>
+			<td>Adam's Greenworks</td>
+			<td>14</td>
+			<td>Package items</td>
+		</tr>
+		<tr>
+			<td>Davie's Burgers</td>
+			<td>2</td>
+			<td>Send Invoice</td>
+		</tr>
+		<tr>
+			<td colspan="2"> Baker's Bike Shop</td>
+			<td>3</td>
+			<td>Send Invoice</td>
+		</tr>
+		<tr>
+			<td>Miss Sally's Southern</td>
+			<td>4</td>
+			<td>Ship</td>
+		</tr>
+		<tr>
+			<td>Summit Resort Rentals</td>
+			<td>4</td>
+			<td>Ship</td>
+		</tr>
+		<tr>
+			<td>Strike Fitness</td>
+			<td>1</td>
+			<td>Enter Order</td>
+		</tr>
+		</table>
 	</body>
 	
 </html>	
