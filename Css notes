@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Foundation</title>
+		<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<p>
+			CSS is used to design a website.<br />
+			You can use the style attribute to design text. You can change the color, font size, font family and other things.<br />
+			Each style needs to be separated ny a semi-colon.<br />
+			To design many of the same elements, you need to open a < s t y l e > attribute in the < h e a d > element.<br />
+			For example, you can make it so that every h1 element is the same color in a < s t y l e > element. <br />
+			You need to link your html file to a css file to make it easier to read. You can do this with a < l i n k > tag and with href, type, and rel attributes.<br />
+			
+</html>
