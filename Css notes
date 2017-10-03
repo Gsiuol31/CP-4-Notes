@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -5,12 +6,21 @@
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<p>
-			CSS is used to design a website.<br />
+		<h1> Intro and Styling </h1>
+		<p>CSS is used to design a website.<br />
 			You can use the style attribute to design text. You can change the color, font size, font family and other things.<br />
 			Each style needs to be separated ny a semi-colon.<br />
 			To design many of the same elements, you need to open a < s t y l e > attribute in the < h e a d > element.<br />
-			For example, you can make it so that every h1 element is the same color in a < s t y l e > element. <br />
-			You need to link your html file to a css file to make it easier to read. You can do this with a < l i n k > tag and with href, type, and rel attributes.<br />
+			For example, you can make it so that every h1 element is the same color in a < s t y l e > element. </p><br />
+		<h1> Linking an HTML document to a CSS Document </h1>
+		<p>	You need to link your html file to a css file to make it easier to read. You can do this with a < l i n k > tag and with href, type, and rel attributes.<br />
+			For example, < link href="style.css" type="text/css" rel="stylesheet"><p><br />
+		<h1> Classes </h1>
+			<p> Classes can be used to style a certain attribute of a text.<br />
+			For example, .title would style every title in the text.
+			You can add classes to make it easier to code in the future.
+			For example, if u create a class called green and in it, it makes the font green.<br />
+			Then if u make an h1, and do  < h1 class="green">Top Vacation Spots< / h 1 >, it will be green.<br />
+			
 			
 </html>
