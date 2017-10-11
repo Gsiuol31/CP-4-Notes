@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -17,10 +16,21 @@
 			For example, < link href="style.css" type="text/css" rel="stylesheet"><p><br />
 		<h1> Classes </h1>
 			<p> Classes can be used to style a certain attribute of a text.<br />
-			For example, .title would style every title in the text.
-			You can add classes to make it easier to code in the future.
-			For example, if u create a class called green and in it, it makes the font green.<br />
-			Then if u make an h1, and do  < h1 class="green">Top Vacation Spots< / h 1 >, it will be green.<br />
+				For example, .title would style every title in the text.
+				CSS classes are meant to be reused over many elements
+				You can add classes to make it easier to code in the future.
+				For example, if u create a class called green and in it, it makes the font green.<br />
+				Then if u make an h1, and do  < h1 class="green">Top Vacation Spots< / h 1 >, it will be green.<br />
+		<h1> IDs </h1>
+			<p>If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), we can add an ID to the element<br/>
+			#large-title {
+				font-family: cursive;
+				Text-transform: capitalize;
+			}
+		<h1> Specify </h1>
+			<p>Specificity is the order by which the browser decides which CSS styles will be displayed.
+			IDs are the most specific selector in CSS, followed by classes, and finally, tags.
+			So, for example, classes take priority over tags.
 			
 			
 </html>
