@@ -16,21 +16,33 @@
 			For example, < link href="style.css" type="text/css" rel="stylesheet"><p><br />
 		<h1> Classes </h1>
 			<p> Classes can be used to style a certain attribute of a text.<br />
-				For example, .title would style every title in the text.
-				CSS classes are meant to be reused over many elements
-				You can add classes to make it easier to code in the future.
+				For example, .title would style every title in the text.<br>
+				CSS classes are meant to be reused over many elements.<br>
+				You can add classes to make it easier to code in the future.<br>
 				For example, if u create a class called green and in it, it makes the font green.<br />
 				Then if u make an h1, and do  < h1 class="green">Top Vacation Spots< / h 1 >, it will be green.<br />
 		<h1> IDs </h1>
 			<p>If an HTML element needs to be styled uniquely (no matter what classes are applied to the element), we can add an ID to the element<br/>
-			#large-title {
-				font-family: cursive;
-				Text-transform: capitalize;
-			}
+			#large-title {<br>
+				font-family: cursive;<br>
+				Text-transform: capitalize;<br>
+			}<br>
 		<h1> Specify </h1>
-			<p>Specificity is the order by which the browser decides which CSS styles will be displayed.
-			IDs are the most specific selector in CSS, followed by classes, and finally, tags.
-			So, for example, classes take priority over tags.
-			
+			<p>Specificity is the order by which the browser decides which CSS styles will be displayed.<br>
+			IDs are the most specific selector in CSS, followed by classes, and finally, tags.<br>
+			So, for example, classes take priority over tags.<br>
+			You can have more than 1 selector for each element.<br>
+			Elements can be nested into classes.<br>
+			!important takes priority over any class and therefore should almost never be used.<br>
+			Multiple selectors can be chained together to select an element. This raises the specificity, but can be necessary.<br>
+		<h1> CSS structure </h1>
+			<p> CSS declarations are property and values.<br>
+			For example, color: teal<br>
+			Font-family is for font<br>
+			Font-size is for the size of the font<br>
+			Font-weight is the thickness of the text<br>
+			Text-align is where the text is on the page<br>
+			Color can be used to change the text color or the background color<br>
+			The opacity is the transparency of the element<br>
 			
 </html>
