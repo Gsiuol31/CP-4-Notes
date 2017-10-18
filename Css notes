@@ -5,6 +5,22 @@
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
+	<div class="toggleWrapper">
+	<input type="checkbox" class="dn" id="dn"/>
+	<label for="dn" class="toggle">
+    <span class="toggle__handler">
+		<span class="crater crater--1"></span>
+      <span class="crater crater--2"></span>
+      <span class="crater crater--3"></span>
+    </span>
+    <span class="star star--1"></span>
+    <span class="star star--2"></span>
+    <span class="star star--3"></span>
+    <span class="star star--4"></span>
+    <span class="star star--5"></span>
+    <span class="star star--6"></span>
+	</label>
+</div>
 		<h1> Intro and Styling </h1>
 		<p>CSS is used to design a website.<br />
 			You can use the style attribute to design text. You can change the color, font size, font family and other things.<br />
@@ -44,5 +60,16 @@
 			Text-align is where the text is on the page<br>
 			Color can be used to change the text color or the background color<br>
 			The opacity is the transparency of the element<br>
+			.background-image allows you to put an image in the background of somenthing.<br>
+			You need to put a url that leads to an image<br>
+		<h1> The Box Model </h1>
+			<p> Each website is a box<br>
+			If you change the background of a website, you change the background of the box<br>
+			There are properties that defines part of the box model.<br>
+			Weight and height define the size of the content area<br>
+			Padding specifies the amount of space between the border and the content<br>
+			Border specifies the thickness and style of the border surrounding the content<br>
+			Margin specifies the space between the border and the outside dge of the element<br>
+			
 			
 </html>
