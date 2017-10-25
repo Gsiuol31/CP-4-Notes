@@ -5,22 +5,6 @@
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-	<div class="toggleWrapper">
-	<input type="checkbox" class="dn" id="dn"/>
-	<label for="dn" class="toggle">
-    <span class="toggle__handler">
-		<span class="crater crater--1"></span>
-      <span class="crater crater--2"></span>
-      <span class="crater crater--3"></span>
-    </span>
-    <span class="star star--1"></span>
-    <span class="star star--2"></span>
-    <span class="star star--3"></span>
-    <span class="star star--4"></span>
-    <span class="star star--5"></span>
-    <span class="star star--6"></span>
-	</label>
-</div>
 		<h1> Intro and Styling </h1>
 		<p>CSS is used to design a website.<br />
 			You can use the style attribute to design text. You can change the color, font size, font family and other things.<br />
@@ -70,6 +54,11 @@
 			Padding specifies the amount of space between the border and the content<br>
 			Border specifies the thickness and style of the border surrounding the content<br>
 			Margin specifies the space between the border and the outside dge of the element<br>
+			Height and width are used to define the size of other elements.<br>
+			Border has 3 elements: pixels, type of border, and color<br>
+			Border-adius makes the edges round<br>
+			Padding allows you to have space between the content and borders<br>
+			
 			
 			
 </html>
