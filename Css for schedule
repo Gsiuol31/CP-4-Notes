@@ -1,0 +1,40 @@
+th{
+	font-size: 30px;
+	color: white;
+	font-family: Cosmic Sans MS;
+}
+body{
+	background: red;
+}
+td{
+	font-size: 20px;
+	color: white;
+	font-family: Cosmic Sans MS;
+}
+.science{
+	background: blue;
+}
+.math{
+	background: black
+}
+.music{
+	background: purple
+}
+.computer{
+	background:teal
+}
+.english{
+	background: orange;
+}
+.french{
+	background: maroon
+}
+.history{
+	background: green;
+}
+.religion{
+	background: pink;
+}
+.gym{
+	background: cyan;
+}
