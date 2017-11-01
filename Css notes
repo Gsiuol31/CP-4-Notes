@@ -56,8 +56,57 @@
 			Margin specifies the space between the border and the outside dge of the element<br>
 			Height and width are used to define the size of other elements.<br>
 			Border has 3 elements: pixels, type of border, and color<br>
-			Border-adius makes the edges round<br>
+			Border-radius makes the edges round<br>
 			Padding allows you to have space between the content and borders<br>
+			You can change the size of padding in one line<br>
+			For example: padding: 30px 40px 20px 50px<br>
+			The numbers go in a clockwise rotation, so 30 would be the top, 40 the right, 20 the bottom, etc<br>
+			You can simplify the padding if the padding for the top and bottom is the same, and if the padding for the sides is the same.<br>
+			For example, padding: 10px 20px, 10 px would be for top and bottom and 20 would be for sides.<br>
+			Margins are the space directly outside the box.<br>
+			If you have a margin of 20 px, no other element of the box can come within 20 px of the first element.<br>
+			You can be more specific with margin-right,margin-bottom,margin-top, etc.<br>
+			You can do the same thing for the sides of the margin as with padding.<br>
+			Auto is used to set a margin to the center of something.<br>
+			If there are two adjacent elements with the same horizontal margins, the margins will add.<br>
+			If there are two adjacent elements with different vertical margins, the biggest margin takes priority.<br>
+			You can make sure content does not spill out of a box if read on another smaller/bigger device with, min-width, max-width, min-height, max-height.<br>
+			The overflow property controls what happens to content that spills, or overflows, outside its box.<br>
+			Hidden will hide any overflow<br>
+			Scroll adds a scrollbar so that the rest of the content can be read by scrolling<br>
+			Visible, the default value, makes the overflow visible.
+			You can reset margins and padding to default with O. No px needed.<br>
+			Visibility can allow you to hide certain things on the browser.<br>
+			The default box model is affected by padding and border thickness<br>
+			Border box model avoid dimensional issues in the former box model.<br>
+		<h1> Display and Positioning</h1>
+			<p>The default position of an element can be changed by setting its position property.<br>
+			 The position property can take one of four values: static, relative, absolute, and fixed.<br>
+			 Static is the default property.<br>
+			 Relative allows you to position an element relative to its default static position.<br>
+			 For example: position: relative
+			 	      top: 20px
+				      right: 30px
+			This would the element 20px up, and 30px to the right.
+			Absolute ignores all other elements on the page.<br>
+			If you had to pictures one over the other, the absolute picture would show.<br>
+			If you wrote top:20px left:30px, it would be down 20 px and right 30 px from the top left corner.<br>
+			Fixed can keep an element on the page at a certain place even if the user scrolls down.<br>
+			Z-index can be used to put elements in front of the other element.<br>
+			The greatest Z-index will have priority.<br>
+			The display vale dictates if an HTML element can share horizontal space with another element.<br>
+			The display element has three values: inline, block, and inline-block.<br>
+			The inline creates a box wrapping its content tightly allowing to put more things around it<br>
+			Block/Block-level fill the entire width of the page and take up the necessary height.<br>
+			Inline-block elements can be next to each other and we can specify their height and width.<br>
+			The float property will move an element as far left/right as it can go.<br>
+			The clear property indicates how elements should react when they bump into each other on a page.<br>
+			clear left: the left side of the element will not touch any other element within the same containing element.<br>
+			clear right: the right side of the element will not touch any other element within the same containing element.<br>
+			clear both: neither side of the element will touch any other element within the same containing element.<br>
+			clear none: the element can touch either side.
+			
+			
 			
 			
 			
