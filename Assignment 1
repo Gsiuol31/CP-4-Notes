@@ -1,3 +1,4 @@
+	
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,9 +7,22 @@
 		<link href="Schedule CSS.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
+	<h1> Louis' Schedule</h1>
 	<table border="3">
 		<!-- This top row  is for the days of the cycle-->|
 		<!-- There is an empty space for the crossover point between periods and days-->
+		<!--All of my classes are color coded-->
+		<!--Science is blue
+		Math is Black
+		Music is purple
+		Computer Programming is teal
+		English is orange
+		French is maroon
+		History is green
+		Religion is pink
+		Gym is cyan
+		Speech, Homeroom and LA are silver.-->
+		
 		<tr>
 			<th scope="col">  </th>
 			<th scope="col"> Day 1</th>
@@ -40,7 +54,7 @@
 		</tr>
 		<tr>
 		<!-- These are all the classes of every period 2 of each day-->
-			<td> <strong>Period 2</strong></tr>
+			<td> <strong>Period 2</strong></td>
 			<td class="french"> French(151)</td>
 			<td class="music"> Music</td>
 			<td class="math"> Math(210)</td>
@@ -73,12 +87,12 @@
 			<td> <strong>Period 4</strong></td>
 			<td class="computer"> Cp(Computer lab)</td>
 			<td class="history"> History(254)</td>
-			<td> Homeroom(136)</td>
-			<td> Speech(252)</td>
+			<td class="homeroom"> Homeroom(136)</td>
+			<td class="speech"> Speech(252)</td>
 			<td class="history"> History(216)</td>
 			<td class="music"> Music</td>
-			<td> LA(Auditorium)</td>
-			<td> Speech(211)</td>
+			<td class="speech"> LA(Auditorium)</td>
+			<td class="speech"> Speech(211)</td>
 		</tr>
 		<tr>
 		<!-- These are all the classes of every period 5 of each day-->
@@ -109,5 +123,8 @@
 			<td class="science"> Science(320)</td>
 			<td class="science"> Science(320)</td>
 		</tr>
-<html>		
+		</table>
+	</body>	
+</html>		
+		
 		
