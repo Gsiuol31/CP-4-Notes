@@ -2,6 +2,7 @@ p {
 	color: lime;
 	font-size: 20px;
 	font-family: Comic Sans MS;
+	text-align: center;
 }
 h1{
 	text-transform:uppercase;
@@ -10,12 +11,10 @@ h1{
 	padding:30px;
 	color: orange;
 	font-weight: bold;
-	border: 3px solid green;
-}
-	
+	border: 3px solid orange;
+	text-align:center;
 }
 body{
-  text-align:center;
-  background:teal;
-  
-}
+	background-color: teal;
+}	
+
