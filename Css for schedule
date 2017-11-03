@@ -4,12 +4,16 @@ th{
 	font-family: Cosmic Sans MS;
 }
 body{
-	background: red;
+	background: linear-gradient(to right, blue, orange, red, purple);
 }
 td{
-	font-size: 20px;
+	font-size:18px;
 	color: white;
 	font-family: Cosmic Sans MS;
+}
+h1{
+	text-align: center;
+	color:white;
 }
 .science{
 	background: blue;
@@ -37,4 +41,10 @@ td{
 }
 .gym{
 	background: cyan;
+}
+.homeroom{
+	background: silver;
+}
+.speech{
+	background:silver
 }
