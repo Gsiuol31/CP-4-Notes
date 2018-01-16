@@ -1,0 +1,9 @@
+body{
+	background: linear-gradient(to right, blue, orange);
+	text-align: center;
+	font-family: Comic Sans MS;
+	color: white;
+}
+table{
+	border: 1px solid white;+
+}
