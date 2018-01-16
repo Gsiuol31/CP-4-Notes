@@ -1,0 +1,74 @@
+th{
+	font-size: 30px;
+	color: white;
+	font-family: Cosmic Sans MS;
+}
+body{
+	background: linear-gradient(to right, blue, orange, red, purple);
+}
+td{
+	font-size:18px;
+	color: white;
+	font-family: Cosmic Sans MS;
+}
+h1{
+	text-align: center;
+	color:white;
+}
+.science{
+	background: blue;
+}
+.math{
+	background: black
+}
+.music{
+	background: purple
+}
+.computer{
+	background:teal
+}
+.english{
+	background: orange;
+}
+.french{
+	background: maroon
+}
+.history{
+	background: green;
+}
+.religion{
+	background: pink;
+}
+.gym{
+	background: cyan;
+}
+.homeroom{
+	background: silver;
+}
+.speech{
+	background:silver
+}
+tr:hover{
+	background: black;
+}
+form {
+                width:500px;
+                margin:50px auto;
+}
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}
