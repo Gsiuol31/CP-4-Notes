@@ -36,8 +36,7 @@ body {
 	
 	<h1> Louis' Schedule</h1>
 	
-	<p id="lewis"></p>
-	<script type="text/javascript" src="Schedule javascript.js"></script>
+	<p id="date"></p>
 	<table border="3">
 		<!-- This top row  is for the days of the cycle-->|
 		<!-- There is an empty space for the crossover point between periods and days-->
@@ -158,11 +157,28 @@ body {
 			<td> No class</td>
 		</tr>
 		</table>
+		<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
 		<input placeholder="Search..">
 		<input type="Submit">
-		<script>var d = new Date("January 19, 2018");
-			document.getElementById("lewis").innerHTML = Date();
+		<script>
+		document.getElementById("date").innerHTML = Date();
+		function myFunction() {
+			document.getElementById("demo").style.color = "red";
+			}
+			var d = "class";
+			switch (d){
+			case "Math":
+				console.log('+-x/=');
+				break;
+			case "Science":
+				console.log('podcasts');
+				break;
+			case "Computer Programming":
+				console.log('Codecademy');
+				break;
+			default:
+				console.log('You dun guuufed');
+			}
 			</script>
 	</body>	
 </html>		
-		
