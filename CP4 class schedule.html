@@ -14,20 +14,20 @@ body {
  
 @-webkit-keyframes colorchange {
  
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
+     0%  {background: #DE162B;}
+    25%  {background: #9916DE;}
+    50%  {background: #16AFDE;}
+    75%  {background: #47DE16;}
+    100% {background: #26BCB7;}
 }
  
  
 @keyframes colorchange {
-     0%  {background: #33FFF3;}
-    25%  {background: #78281F;}
-    50%  {background: #117A65;}  
-    75%  {background: #DC7633;}
-    100% {background: #9B59B6;}
+     0%  {background: #16DE5E;}
+    25%  {background: #47DE16;}
+    50%  {background: #C6DE16;}  
+    75%  {background: #DE6E16;}
+    100% {background: #26BCB7;}
 }   
  
 </style>
@@ -108,6 +108,10 @@ body {
 			<td class="science"> Science(350)</td>
 			<td class="french"> French(151)</td>
 			<td class="religion"> Religion(353)</td>
+			
+			
+			
+			
 			<td> No Class</td>
 			<td class="religion">Religion(353)</td>
 		</tr>
@@ -158,15 +162,16 @@ body {
 		</tr>
 		</table>
 		<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
-		<input placeholder="Search..">
+		<input id="button" placeholder="Search..">
 		<input type="Submit">
-		<script>
+		<script> 
 		document.getElementById("date").innerHTML = Date();
 		function myFunction() {
 			document.getElementById("demo").style.color = "red";
 			}
-			var d = "class";
-			switch (d){
+			var d = document.getElementById("button").value;
+			var x = document.getElementsByClassName(d).value;
+			switch (x){
 			case "Math":
 				console.log('+-x/=');
 				break;
@@ -176,9 +181,35 @@ body {
 			case "Computer Programming":
 				console.log('Codecademy');
 				break;
+			case "French":
+				console.log('easy grades');
+				break;
+			case "English":
+				console.log("MJK");
+				break;
+			case "Gym":
+				console.log('does not know how to ref');
+				break;
+			case "History":
+				console.log('No control of his class');
+				break;
+			case "Music":
+				console.log('DJ Squins');
+				break;
+			case "Homeroom":
+				console.log('chilling');
+				break;
+			case "Religion":
+				console.log('gaming');
+				break;
+			case "Speech":
+				console.log('Im bad');
+				break;
 			default:
-				console.log('You dun guuufed');
+				console.log("We don't learn that");
 			}
+			var 
+			
 			</script>
 	</body>	
 </html>		
