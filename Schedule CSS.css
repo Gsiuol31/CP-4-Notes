@@ -4,7 +4,7 @@ th{
 	font-family: Cosmic Sans MS;
 }
 body{
-	background: linear-gradient(to right, blue, orange, red, purple);
+	background: green;
 }
 td{
 	font-size:18px;
@@ -19,7 +19,7 @@ h1{
 	background: blue;
 }
 .math{
-	background: black
+	background: yellow
 }
 .music{
 	background: purple

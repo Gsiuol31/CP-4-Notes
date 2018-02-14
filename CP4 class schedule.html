@@ -4,33 +4,6 @@
 		<!-- This is the tab of the website -->
 		<title>Louis Class Schedule</title>
 		<link href="Schedule CSS.css" type="text/css" rel="stylesheet">
-		<style>
- 
-body {
-    -webkit-animation: colorchange 10s infinite; 
-    animation: colorchange 10s infinite;
-}
- 
- 
-@-webkit-keyframes colorchange {
- 
-     0%  {background: #DE162B;}
-    25%  {background: #9916DE;}
-    50%  {background: #16AFDE;}
-    75%  {background: #47DE16;}
-    100% {background: #26BCB7;}
-}
- 
- 
-@keyframes colorchange {
-     0%  {background: #16DE5E;}
-    25%  {background: #47DE16;}
-    50%  {background: #C6DE16;}  
-    75%  {background: #DE6E16;}
-    100% {background: #26BCB7;}
-}   
- 
-</style>
 	</head>
 	<body>
 	
@@ -162,54 +135,60 @@ body {
 		</tr>
 		</table>
 		<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
-		<input id="button" placeholder="Search..">
-		<input type="Submit">
+		<input id="button"  type="text" placeholder="Search..">
+		<input onclick="Highlight()" id="search" type="Submit">
 		<script> 
 		document.getElementById("date").innerHTML = Date();
 		function myFunction() {
 			document.getElementById("demo").style.color = "red";
+		}
+		
+		var selectedClass;
+		function Highlight() {
+			var f = document.getElementById("button").value;
+			switch (f){
+				case "Math":
+					selectedClass = "math";
+					break;
+				case "Science":
+					selectedClass = "science";
+					break;
+				case "Computer Programming":
+					selectedClass = "computer";
+					break;
+				case "French":
+					selectedClass = "french";
+					break;
+				case "English":
+					selectedClass = "english";
+					break;
+				case "Gym":
+					selectedClass = "gym";
+					break;
+				case "History":
+					selectedClass = "history";
+					break;
+				case "Music":
+					selectedClass = "music";
+					break;
+				case "Homeroom":
+					selectedClass = "homeroom";
+					break;
+				case "Religion":
+					selectedClass = "religion";
+					break;
+				case "Speech":
+					selectedClass = "speech";
+					break;
+				default:
+					console.log("We don't learn that");
 			}
-			var d = document.getElementById("button").value;
-			var x = document.getElementsByClassName(d).value;
-			switch (x){
-			case "Math":
-				console.log('+-x/=');
-				break;
-			case "Science":
-				console.log('podcasts');
-				break;
-			case "Computer Programming":
-				console.log('Codecademy');
-				break;
-			case "French":
-				console.log('easy grades');
-				break;
-			case "English":
-				console.log("MJK");
-				break;
-			case "Gym":
-				console.log('does not know how to ref');
-				break;
-			case "History":
-				console.log('No control of his class');
-				break;
-			case "Music":
-				console.log('DJ Squins');
-				break;
-			case "Homeroom":
-				console.log('chilling');
-				break;
-			case "Religion":
-				console.log('gaming');
-				break;
-			case "Speech":
-				console.log('Im bad');
-				break;
-			default:
-				console.log("We don't learn that");
-			}
-			var 
+		var name = document.getElementsByClassName(selectedClass);
+		for(i=0; i<name.length; i++){
+			name[i].style.backgroundColor = "Black";
 			
-			</script>
+		}
+		}
+		</script>
 	</body>	
 </html>		
