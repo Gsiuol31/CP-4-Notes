@@ -1,7 +1,8 @@
+/*these change the text in different elements of my website*/
 th{
 	font-size: 30px;
 	color: white;
-	font-family: Cosmic Sans MS;
+	font-family: Cooper Black;
 }
 body{
 	background: green;
@@ -14,7 +15,7 @@ td{
 h1{
 	text-align: center;
 	color:white;
-}
+}/*these are all the classes for my html documents that change the background color*/
 .science{
 	background: blue;
 }
@@ -54,6 +55,7 @@ tr:hover{
 form {
                 width:500px;
                 margin:50px auto;
+/*these change certain things in the search bar, the button, and the hover*/
 }
 .search {
                 padding:8px 15px;
