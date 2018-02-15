@@ -81,10 +81,6 @@
 			<td class="science"> Science(350)</td>
 			<td class="french"> French(151)</td>
 			<td class="religion"> Religion(353)</td>
-			
-			
-			
-			
 			<td> No Class</td>
 			<td class="religion">Religion(353)</td>
 		</tr>
@@ -134,18 +130,27 @@
 			<td> No class</td>
 		</tr>
 		</table>
+		<!-- this is the example of an onclick that changes the text color of a sentence to red-->
 		<p id="demo" onclick="myFunction()">Click me to change my text color.</p>
+		<!-- this is the search bar. It has an id so that the function can take the information from it later.-->
 		<input id="button"  type="text" placeholder="Search..">
+		<!-- this is the submit button. WHenever it is pressed, the function tht is created later is called.-->
 		<input onclick="Highlight()" id="search" type="Submit">
 		<script> 
+		<!--this is an element which puts the date on the webpage.-->
 		document.getElementById("date").innerHTML = Date();
+		<!--this is the function that allows the text to become red when pressed-->
+		<!-- whenever it is clicked, the style and color of the text changes to red-->
 		function myFunction() {
 			document.getElementById("demo").style.color = "red";
 		}
-		
+		<!--this variable is created so that it can be used to call classes in the switch later-->
 		var selectedClass;
+		<!--this is where the function that is activated when the submit button is pressed is created-->
 		function Highlight() {
+			<!-- this gets the value of whatever is in the search bar which has the id of button-->
 			var f = document.getElementById("button").value;
+			<!-- THis switch makes it so whenever a class is typed in the search bar, it gets the class of the class and puts it in the variable SelectedClass-->
 			switch (f){
 				case "Math":
 					selectedClass = "math";
@@ -183,7 +188,9 @@
 				default:
 					console.log("We don't learn that");
 			}
+		<!--I then created the variable called name which changes to the class of whatever the variable selectedClass is-->
 		var name = document.getElementsByClassName(selectedClass);
+		<!--This changes the variable name, which now has the selected class, to have a background of black-->
 		for(i=0; i<name.length; i++){
 			name[i].style.backgroundColor = "Black";
 			
